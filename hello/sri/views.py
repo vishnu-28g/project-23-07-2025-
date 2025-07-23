@@ -6,5 +6,3 @@ def home(request):
 
 def index(request):
     return render(request,'index.html')
-def demo(request):
-    return render(request,'demo.html')
